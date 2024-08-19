@@ -1,0 +1,6 @@
+---
+Name: first-or-config
+---
+SilverStripe\ORM\DataList:
+  extensions:
+    - KrisCoidan\Extensions\ORM\DataListExtension

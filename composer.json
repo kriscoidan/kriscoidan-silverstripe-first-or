@@ -1,0 +1,23 @@
+{
+  "name": "kriscoidan/silverstripe-first-or",
+  "description": "Adds Laravel like firstOr methods to the SilverStripe DataList ORM",
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "silverstripe"
+  ],
+  "authors": [
+    {
+      "name": "Kris Coidan",
+      "homepage": "https://kriscoidan.dev"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "^5"
+  },
+  "autoload": {
+    "psr-4": {
+      "KrisCoidan\\Extensions\\": "src/"
+    }
+  }
+}
